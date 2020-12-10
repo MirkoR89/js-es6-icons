@@ -22,9 +22,10 @@ const icons = [
 ]
 console.log(icons);
   // Semezioniamo il container icons
+const containerIcons = $(`.icons`);
 
   //inseriamo le icone nel container (possiamo creare una funzione tipo print() per inserire gli elementi e richiamarla qui)
-
+  print(icons, containerIcons)
 });
 
 
@@ -32,3 +33,7 @@ console.log(icons);
 // Creiamo una funzione per iterare nell'array e che appenda al container le icone.
 // tip: possiamo usare un ciclo foreach qui e destrutturare gli le proprieta degli elementi di un array
 // tip: il template literal ci puo aiutare con il markup
+
+const print = (array, selector) => {
+  console.log(array, selector);
+}
