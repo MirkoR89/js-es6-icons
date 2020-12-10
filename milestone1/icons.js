@@ -1,6 +1,26 @@
 $(document).ready(function () {
-  // Creiamo array di oggetti per le icone con le seguenti proprieta: name, prefix, type, family 
-
+  // Creiamo array di oggetti per le icone con le seguenti proprieta: name, prefix, type, family
+const icons = [
+  {
+    name: `name`,
+    prefix: `prefix`,
+    type: `type`,
+    family: `family`
+  },
+  {
+    name: `name`,
+    prefix: `prefix`,
+    type: `type`,
+    family: `family`
+  },
+  {
+    name: `name`,
+    prefix: `prefix`,
+    type: `type`,
+    family: `family`
+  }
+]
+console.log(icons);
   // Semezioniamo il container icons
 
   //inseriamo le icone nel container (possiamo creare una funzione tipo print() per inserire gli elementi e richiamarla qui)
@@ -12,4 +32,3 @@ $(document).ready(function () {
 // Creiamo una funzione per iterare nell'array e che appenda al container le icone.
 // tip: possiamo usare un ciclo foreach qui e destrutturare gli le proprieta degli elementi di un array
 // tip: il template literal ci puo aiutare con il markup
-
